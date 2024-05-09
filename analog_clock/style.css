@@ -3,16 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(43, 43, 43);
-
+    /* background-color: rgb(43, 43, 43); */
 }
 
 .clock {
     position: absolute;
     height: 300px;
     width: 300px;
-    border: 3px solid yellowgreen;
+    border: 3px solid #ffff;
     border-radius: 100%;
+    background-color: rgb(43, 43, 43);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #seconds {
@@ -28,9 +29,9 @@ body {
 
 #minutes {
     position: absolute;
-    height: 100px;
+    height: 110px;
     width: 2px;
-    background-color: green;
+    background-color: #ffff;
     border-radius: 50px;
     left: 148px;
     bottom: 148px;
@@ -40,9 +41,9 @@ body {
 
 #hours {
     position: absolute;
-    height: 50px;
-    width: 3px;
-    background-color: orange;
+    height: 80px;
+    width: 5px;
+    background-color: brown;
     border-radius: 50px;
     left: 148px;
     bottom: 148px;
